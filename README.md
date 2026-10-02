@@ -1,16 +1,13 @@
-Character_Recognition/
+## Project Structure
+
+```text
+Character-Recognition-ML/
 │
 ├── dataset/
-│   ├── X.csv
-│   └── y.csv
+│   └── (MNIST CSV files generated locally)
 │
 ├── models/
-│   ├── knn_model.pkl
-│   ├── scaler.pkl
-│   ├── svm_model.pkl
-│   ├── svm_scaler.pkl
-│   ├── nn_model.pkl
-│   └── nn_scaler.pkl
+│   └── (trained model files generated locally)
 │
 ├── results/
 │   ├── confusion_matrix.png
@@ -32,4 +29,5 @@ Character_Recognition/
 │
 ├── app.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
